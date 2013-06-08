@@ -19,7 +19,7 @@ public class HelloCamelMain {
 		
 		System.out.println("Now Start Context");
 		context.start();
-		Thread.sleep(5000);
+		Thread.sleep(10000);
 		System.out.println("Stop Context");
 		context.stop();
 		
